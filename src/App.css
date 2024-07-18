@@ -1,0 +1,74 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App-header a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.App-header a:hover {
+  color: #fff;
+}
+
+.App-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.App-footer {
+  background-color: #282c34;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+.App-footer a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.App-footer a:hover {
+  color: #fff;
+}
+
+/* Responsive design */
+
+@media (max-width: 768px) {
+ .App-header {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+ .App-header {
+    padding: 10px;
+  }
+ .App-main {
+    padding: 10px;
+  }
+ .App-footer {
+    padding: 5px;
+  }
+}

@@ -1,0 +1,22 @@
+/* src/components/About.css */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #080808;
+    border: 1px solid #0e0d0d;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .paragraph {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #fffdfd;
+  }
